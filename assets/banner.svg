@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Rodion — IT Infrastructure Volunteer at Marrahub, Melbourne">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#10291f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="18" fill="url(#grid)"/>
+  <g fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.55">
+    <path d="M880 70h90l30 30h120"/>
+    <path d="M900 130h60l25-25h95"/>
+    <path d="M860 190h130l30-30h100"/>
+  </g>
+  <g fill="#34d399">
+    <circle cx="880" cy="70" r="5"/><circle cx="1120" cy="100" r="5"/>
+    <circle cx="900" cy="130" r="5"/><circle cx="1080" cy="105" r="5"/>
+    <circle cx="860" cy="190" r="5"/><circle cx="1120" cy="160" r="5"/>
+  </g>
+  <text x="64" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#f8fafc">Rodion</text>
+  <text x="64" y="156" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="url(#accent)">IT Infrastructure Volunteer · Marrahub</text>
+  <text x="64" y="196" font-family="Consolas, Menlo, monospace" font-size="17" fill="#94a3b8">Melbourne, Australia · infrastructure · web platforms · automation</text>
+  <rect x="64" y="216" width="120" height="4" rx="2" fill="url(#accent)"/>
+</svg>
